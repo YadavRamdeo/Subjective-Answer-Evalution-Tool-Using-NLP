@@ -1,0 +1,85 @@
+Basic Questions (4 Mark Each, Total: 20 Marks)
+1. What is NLP? (4 Marks)
+
+Answer:
+NLP, or Natural Language Processing, is a subfield of AI that bridges human language with computational systems, enabling machines to process, analyze, and generate language in meaningful ways.
+2. What is tokenization in NLP? (4 Marks)
+
+Answer:
+Tokenization is the segmentation of text into discrete units like words or sentences, serving as the foundational step for transforming raw text into analyzable formats for computational models.
+3. Define stop words in NLP. (4 Marks)
+
+Answer:
+Stop words are high-frequency terms with minimal semantic value (e.g., "is," "the") that are often removed to enhance computational efficiency during text analysis.
+4. What is stemming in NLP? (4 Marks)
+ 
+Answer:
+Stemming applies heuristic processes to truncate words to their root forms, often producing stems that may not necessarily align with linguistic conventions (e.g., "running" → "run").
+5. What is lemmatization in NLP? (4 Marks)
+
+Answer:
+Lemmatization leverages linguistic rules to transform words into their base dictionary form (lemma), ensuring grammatical correctness (e.g., "better" → "good").
+
+Medium Questions (8 Marks Each, Total: 80 Marks)
+6. What is the difference between Bag of Words (BoW) and TF-IDF? (8 Marks)
+ 
+Answer:
+
+    Bag of Words (BoW) creates a sparse matrix of word frequencies, treating text as an unordered collection of words, disregarding context or importance.
+    TF-IDF assigns a weighted value to each term, balancing its document-level frequency and corpus-wide rarity, making it more sophisticated for tasks like information retrieval.
+
+7. What are the advantages of using pre-trained models like Word2Vec or GloVe? (8 Marks)
+
+Answer:
+Pre-trained embeddings like Word2Vec or GloVe provide dense, fixed-dimensional vector representations of words, capturing semantic and syntactic relationships, which reduce computational costs and enhance model generalization for downstream NLP tasks.
+8. What is the difference between NLU (Natural Language Understanding) and NLG (Natural Language Generation)? (8 Marks)
+
+Answer:
+
+    NLU deciphers the underlying meaning, intent, and context of text using tasks like dependency parsing and entity recognition.
+    NLG transforms structured inputs into coherent text outputs, focusing on natural, human-like language synthesis.
+
+9. Explain Named Entity Recognition (NER) with an example. (8 Marks)
+
+Answer:
+NER identifies entities like names, dates, and locations in text by leveraging statistical or deep learning models. For instance:
+
+    Text: "Elon Musk launched SpaceX from California."
+    NER Output: ("ElonMusk",PERSON),("SpaceX",ORGANIZATION),("California",LOCATION)("ElonMusk",PERSON),("SpaceX",ORGANIZATION),("California",LOCATION).
+
+10. What is attention in NLP models? (8 Marks)
+
+Answer:
+Attention mechanisms assign varying importance to different parts of the input sequence, enabling models like Transformers to focus dynamically on relevant segments during tasks such as translation or summarization.
+Advanced Questions (5 Marks Each, Total: 45 Marks)
+11. What is the Transformer model, and why is it important? (8 Marks)
+
+Answer:
+The Transformer model redefined NLP by replacing recurrent architectures with multi-head self-attention mechanisms, enabling parallelization and the capture of long-range dependencies, thereby serving as the backbone of state-of-the-art models like BERT and GPT.
+12. How does BERT (Bidirectional Encoder Representations from Transformers) work? (8 Marks)
+
+Answer:
+BERT utilizes bidirectional self-attention to pre-train language representations via tasks like Masked Language Modeling (MLM) and Next Sentence Prediction (NSP), excelling in understanding context-rich, token-level nuances across textual data.
+13. Explain how Word2Vec works (CBOW and Skip-gram). (8 Marks)
+
+Answer:
+Word2Vec generates word embeddings by optimizing neural architectures:
+
+    CBOW (Continuous Bag of Words) predicts a target word from its surrounding context.
+    Skip-gram predicts the surrounding context for a given target word, capturing relationships through hierarchical or negative sampling.
+
+14. What is text summarization, and what are the two main approaches? (8 Marks)
+
+Answer:
+Text summarization condenses information by either:
+
+    Extractive Summarization: Selecting key phrases or sentences based on importance.
+    Abstractive Summarization: Generating new, semantically coherent text that captures the essence of the original input.
+
+15. What is semantic similarity, and how is it measured in NLP? (8 Marks)
+
+Answer:
+Semantic similarity quantifies the closeness of meaning between texts using approaches like cosine similarity over vector embeddings (e.g., Word2Vec, BERT), enabling applications like document clustering or paraphrase detection.
+
+Total Marks : 100
+

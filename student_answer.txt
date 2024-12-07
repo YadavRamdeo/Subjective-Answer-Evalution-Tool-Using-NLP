@@ -1,0 +1,83 @@
+Basic Questions (4 Mark Each, Total: 20 Marks)
+1. What is NLP? (4 Marks)
+
+Answer:
+Natural Language Processing (NLP) is a field of Artificial Intelligence that focuses on how computers can understand and create human language.
+
+2. What is tokenization in NLP? (4 Marks)
+
+Answer:
+Tokenization involves splitting text into smaller parts, like words or sentences, so machines can process it more effectively.
+
+3. Define stop words in NLP. (4 Marks)
+
+Answer:
+Stop words are commonly used words (like "and", "is", "the") that are removed during analysis as they don't add significant meaning.
+
+4. What is stemming in NLP? (4 Marks)
+
+Answer:
+Stemming reduces a word to its root by cutting off prefixes or suffixes, but the root may not always be a valid word. For example, "studying" becomes "studi".
+
+5. What is lemmatization in NLP? (4 Marks)
+
+Answer:
+Lemmatization converts a word into its correct dictionary form based on grammar rules. For instance, "studies" becomes "study".
+
+Medium Questions (8 Marks Each, Total: 80 Marks)
+6. What is the difference between Bag of Words (BoW) and TF-IDF? (8 Marks)
+
+Answer:
+BoW counts how often words appear in a document but ignores their importance or order. TF-IDF, however, assigns weight to words, giving less importance to common ones and more to rare ones.
+
+7. What are the advantages of using pre-trained models like Word2Vec or GloVe? (8 Marks)
+
+Answer:
+Models like Word2Vec and GloVe save time by using pre-learned word representations. They also capture relationships between words, improving accuracy in NLP tasks.
+
+8. What is the difference between NLU (Natural Language Understanding) and NLG (Natural Language Generation)? (8 Marks)
+
+Answer:
+NLU focuses on understanding the meaning and intent of text, while NLG is about creating human-like responses or summaries from data.
+
+9. Explain Named Entity Recognition (NER) with an example. (8 Marks)
+
+Answer:
+NER finds specific entities, like names or places, in text. For example:  
+Text: "Marie lives in Paris."  
+NER Output: ("Marie", PERSON), ("Paris", LOCATION).
+
+10. What is attention in NLP models? (8 Marks)
+
+Answer:
+Attention helps models focus on important parts of input text, which improves performance in tasks like language translation.
+
+Advanced Questions (8 Marks Each, Total: 45 Marks)
+11. What is the Transformer model, and why is it important? (8 Marks)
+
+Answer:
+The Transformer model introduced attention mechanisms to handle long text efficiently. It's used in advanced NLP models like GPT and BERT.
+
+12. How does BERT (Bidirectional Encoder Representations from Transformers) work? (8 Marks)
+
+Answer:
+BERT reads text in both directions to understand its meaning better. It uses tasks like predicting missing words to improve its understanding of language.
+
+13. Explain how Word2Vec works (CBOW and Skip-gram). (8 Marks)
+
+Answer:
+Word2Vec represents words as vectors. CBOW predicts a word using its context, while Skip-gram predicts the context from a single word.
+
+14. What is text summarization, and what are the two main approaches? (8 Marks)
+
+Answer:
+Text summarization reduces text to its main points.  
+- Extractive: Selects key sentences.  
+- Abstractive: Writes a new summary with the same meaning.
+
+15. What is semantic similarity, and how is it measured in NLP? (8 Marks)
+
+Answer:
+Semantic similarity measures how similar the meaning of two texts is. It can be done using cosine similarity or word embeddings.
+
+Total Marks: 100
